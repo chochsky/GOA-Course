@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Decoration</title>
+    <style>
+        .underline { text-decoration: underline; }
+        .line-through { text-decoration: line-through; }
+        .overline { text-decoration: overline; }
+    </style>
+</head>
+<body>
+    <p class="underline">ეს პარაგრაფი ხაზგასმულია.</p>
+    <p class="line-through">ეს პარაგრაფი გასულითაა.</p>
+    <p class="overline">ეს პარაგრაფი ზედ ხაზგასმულია.</p>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Size</title>
+    <style>
+        .small { font-size: 12px; }
+        .medium { font-size: 16px; }
+        .large { font-size: 20px; }
+    </style>
+</head>
+<body>
+    <p class="small">ეს პარაგრაფი პატარა ზომისაა.</p>
+    <p class="medium">ეს პარაგრაფი საშუალო ზომისაა.</p>
+    <p class="large">ეს პარაგრაფი დიდი ზომისაა.</p>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Colors</title>
+    <style>
+        .red { color: rgb(255, 0, 0); }
+        .green { color: rgb(0, 255, 0); }
+        .blue { color: rgb(0, 0, 255); }
+    </style>
+</head>
+<body>
+    <p class="red">ეს პარაგრაფი წითელია.</p>
+    <p class="green">ეს პარაგრაფი მწვანეა.</p>
+    <p class="blue">ეს პარაგრაფი ლურჯია.</p>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEX Colors</title>
+    <style>
+        .purple { color: #800080; }
+        .orange { color: #FFA500; }
+        .cyan { color: #00FFFF; }
+    </style>
+</head>
+<body>
+    <p class="purple">ეს პარაგრაფი თეთრია.</p>
+    <p class="orange">ეს პარაგრაფი ფორთოხალია.</p>
+    <p class="cyan">ეს პარაგრაფი ციანია.</p>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ფოტოები</title>
+</head>
+<body>
+    <h2>ფოტოები</h2>
+    <img src="image1.jpg" alt="ფოტო 1" width="200">
+    <img src="image2.jpg" alt="ფოტო 2" width="200">
+    <img src="image3.jpg" alt="ფოტო 3" width="200">
+    <img src="image4.jpg" alt="ფოტო 4" width="200">
+    <img src="image5.jpg" alt="ფოტო 5" width="200">
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>დიდი ცხრილი</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr><th>სვეტი 1</th><th>სვეტი 2</th><th>სვეტი 3</th></tr>
+        <tr><td>1</td><td>2</td><td>3</td></tr>
+        <tr><td>4</td><td>5</td><td>6</td></tr>
+        <tr><td>7</td><td>8</td><td>9</td></tr>
+        <tr><td>10</td><td>11</td><td>12</td></tr>
+    </table>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>რეგისტრაცია</title>
+</head>
+<body>
+    <h2>რეგისტრაციის ფორმა</h2>
+    <form>
+        <label for="username">მომხმარებლის სახელი:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="password">პაროლი:</label><br>
+        <input type="password" id="password" name="password"><br>
+        <input type="submit" value="რეგისტრაცია">
+    </form>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Animation</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            transition: transform 0.3s;
+        }
+        .box:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>პორტფოლიო</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            font-size: 16px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>ჩემი პორტფოლიო</h1>
+    <p>ეს არის ჩემი პორტფოლიო გვერდი, სადაც შეგიძლიათ მოიძიოთ ჩემი ნამუშევრები.</p>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ჩვენი გვერდი</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .friend {
+            margin: 20px;
+        }
+        img {
+            width: 100px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>ჩვენ შესახებ</h1>
+    <div class="friend">
+        <h2>მე</h2>
+        <img src="my_photo.jpg" alt="ჩემი ფოტო">
+        <p>ეს ვარ მე!</p>
+    </div>
+    <div class="friend">
+        <h2>მეგობარი 1</h2>
+        <img src="friend1_photo.jpg" alt="მეგობარი 1">
+        <p>ეს არის ჩემი მეგობარი!</p>
+    </div>
+    <div class="friend">
+        <h2>მეგობარი 2</h2>
+        <img src="friend2_photo.jpg" alt="მეგობარი 2">
+        <p>ეს არის მეორე მეგობარი!</p>
+    </div>
+</body>
+</html>
