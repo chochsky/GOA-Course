@@ -1,0 +1,60 @@
+/* general styles for the lists */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* UL სიაში გამოყენებული სხვადასხვა სტილი */
+ul {
+    list-style-type: circle;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+/* მენიუ ელემენტებისთვის CSS სტილი */
+ul li {
+    margin-bottom: 10px;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
+
+/* UL და OL სიებში hover ეფექტი */
+ul li:hover, ol li:hover {
+    background-color: #f0f8ff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* UL და OL სიებისთვის ძირითადი სტილები */
+ul {
+    list-style-type: circle;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* ჰოვერის ეფექტი */
+ul li:hover, ol li:hover {
+    background-color: #f0f8ff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* ჩაბუდული სიების სტილები */
+ul ul {
+    list-style-type: square;
+}
+
+ol ol {
+    list-style-type: lower-alpha;
+}

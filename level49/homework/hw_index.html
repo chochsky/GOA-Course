@@ -1,0 +1,83 @@
+<div class="container">
+    <div class="child">1</div>
+    <div class="child">2</div>
+    <div class="child">3</div>
+  </div>
+  
+  <style>
+    .container {
+      display: flex;
+      justify-content: space-between; /* შუალედური სივრცის განაწილება */
+      width: 100%;
+      background-color: #f0f0f0;
+    }
+  
+    .child {
+      width: 30%;
+      height: 100px;
+      background-color: lightblue;
+      text-align: center;
+      line-height: 100px;
+      font-size: 24px;
+    }
+  </style>
+
+<div class="card">
+    <div class="card-header">
+      <ul class="nav">
+        <li><a href="#">მთავარი</a></li>
+        <li><a href="#">მომსახურება</a></li>
+        <li><a href="#">კონტაქტი</a></li>
+      </ul>
+    </div>
+    <div class="card-body">
+      <h2>ბარათის დასათაურება</h2>
+      <p>ეს არის მცირე აღწერა, რომელიც ქაღალდზე შესანიშნავად გამოიყურება. ეს არის ადგილი, სადაც შეგიძლიათ დაამატოთ კონტენტი.</p>
+    </div>
+  </div>
+  
+  <style>
+    .card {
+      width: 300px;
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+  
+    .card-header {
+      background-color: #4CAF50;
+      padding: 10px;
+    }
+  
+    .nav {
+      display: flex;
+      justify-content: space-around;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .nav li {
+      padding: 10px;
+    }
+  
+    .nav a {
+      color: white;
+      text-decoration: none;
+    }
+  
+    .card-body {
+      padding: 20px;
+    }
+  
+    .card-body h2 {
+      margin-top: 0;
+    }
+  
+    .card-body p {
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+  

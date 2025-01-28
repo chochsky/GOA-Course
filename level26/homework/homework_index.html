@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random People Table</title>
+    <style>
+        /* პარაგრაფის სტილი */
+        p {
+            font-size: 1.2em;
+            color: #333333;
+        }
+        /* ცხრილის სტილი */
+        table {
+            width: 60%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: #f0f0f0;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ccc;
+        }
+        /* სახელების ფერები */
+        .name1 {
+            color: #FF5733; /* ნარინჯისფერი */
+        }
+        .name2 {
+            color: #33FF57; /* მწვანე */
+        }
+        .name3 {
+            color: #5733FF; /* ლურჯი */
+        }
+        /* ბექგრაუნდის ფერები */
+        tr:nth-child(even) {
+            background-color: #E6E6FA; /* ღია იასამნისფერი */
+        }
+        tr:nth-child(odd) {
+            background-color: #FFF0F5; /* ღია ვარდისფერი */
+        }
+    </style>
+</head>
+<body>
+
+    <p>
+        გოა
+    </p>
+
+    <table>
+        <tr>
+            <th>სახელი</th>
+            <th>გვარი</th>
+        </tr>
+        <tr>
+            <td class="name1">ანა</td>
+            <td>კახაძე</td>
+        </tr>
+        <tr>
+            <td class="name2">ბექა</td>
+            <td>ჭიღლაძე</td>
+        </tr>
+        <tr>
+            <td class="name3">თეა</td>
+            <td>გელაშვილი</td>
+        </tr>
+        <tr>
+            <td class="name1">დავით</td>
+            <td>მეტრეველი</td>
+        </tr>
+        <tr>
+            <td class="name2">ნინო</td>
+            <td>აბაშიძე</td>
+        </tr>
+    </table>
+
+</body>
+</html>
