@@ -1,8 +1,7 @@
 def century(year):
-    if year % 100 == 0:
-        return year // 100
-    else:
-        return (year // 100) + 1
+    return (year + 99) // 100
+
+
 import codewars_test as test
 from solution import century
 
