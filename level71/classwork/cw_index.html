@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ჩემი საყვარელი მანქანა</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>ჩემი საყვარელი მანქანა</h1>
+    </header>
+    <section class="car-details">
+        <img src="https://i.pinimg.com/736x/d8/76/df/d876dfab3611b8725f8de9e0767a60d2.jpg" alt="მანქანა">
+        <p>ეს არის ჩემი საყვარელი მანქანა. ის არის სწრაფი, მძლავრი და კომფორტული.</p>
+    </section>
+</body>
+</html>
+
+<style>
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #1e2a38; 
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.car-details {
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.car-details img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.car-details p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #1e2a38; 
+    color: white;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 14px;
+}
+
+/* @media query for smaller devices */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 30px 0;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    .car-details {
+        padding: 30px;
+    }
+
+    .car-details p {
+        font-size: 16px;
+    }
+}
+
+/* @media query for iPhone 14 Pro Max */
+@media screen and (max-width: 430px) {
+    header {
+        padding: 20px 0;
+    }
+
+    .car-details {
+        padding: 20px;
+    }
+
+    .car-details img {
+        max-width: 90%;
+    }
+
+    footer {
+        font-size: 12px;
+        padding: 10px 0;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .car-details p {
+        font-size: 14px;
+    }
+}
+</style>
