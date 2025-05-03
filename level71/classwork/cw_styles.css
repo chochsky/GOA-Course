@@ -1,0 +1,60 @@
+/* ძირითადი სტილები */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.car-details {
+    padding: 20px;
+    text-align: center;
+}
+
+.car-details img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+/* @media query for iPhone 14 Pro Max */
+@media screen and (max-width: 430px) {
+    header {
+        padding: 15px 0;
+    }
+
+    .car-details {
+        padding: 15px;
+    }
+
+    .car-details img {
+        max-width: 90%;
+    }
+
+    footer {
+        font-size: 14px;
+        padding: 8px 0;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .car-details p {
+        font-size: 16px;
+    }
+}

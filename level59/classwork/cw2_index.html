@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Animation Example</title>
+  <style>
+    /* ძირითადი სტილები */
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
+
+    .animated-div {
+      width: 150px;
+      height: 150px;
+      background-color: #ff5733; /* საწყისი ფერი */
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      border-radius: 10px;
+      animation: rotateAndColorChange 10s forwards;
+    }
+
+    /* ანიმაცია ყველა ცვლილებისთვის */
+    @keyframes rotateAndColorChange {
+      0% {
+        background-color: #ff5733; /* საწყისი ფერი */
+        transform: rotate(0deg);
+      }
+      25% {
+        background-color: #33c9ff; /* მეორე ფერი */
+        transform: rotate(90deg);
+      }
+      50% {
+        background-color: #ff33a1; /* მესამე ფერი */
+        transform: rotate(180deg);
+      }
+      75% {
+        background-color: #33ff57; /* მეოთხე ფერი */
+        transform: rotate(270deg);
+      }
+      100% {
+        background-color: #ff5733; /* უკან დაბრუნება საწყის ფერში */
+        transform: rotate(360deg) scale(1.5) translateX(100px); /* ბრუნვა და გაზრდა */
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="animated-div">Hello</div>
+</body>
+</html>

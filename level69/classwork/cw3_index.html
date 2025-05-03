@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: auto;
+            gap: 20px;
+            width: 90%;
+            max-width: 1400px;
+        }
+        .box {
+            padding: 40px;
+            border-radius: 10px;
+        }
+        .purple { background-color: #6931b6; grid-column: span 2; color: white; height: 200px; }
+        .dark-blue { background-color: #3b3b4f; color: white; height: 150px; }
+        .light { background-color: #ffffff; height: 150px; }
+        .black { background-color: #232323; color: white; grid-column: span 2; height: 180px; }
+        .white { background-color: #eaeaea; height: 150px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box purple"></div>
+        <div class="box dark-blue"></div>
+        <div class="box white"></div>
+        <div class="box black"></div>
+        <div class="box light"></div>
+    </div>
+</body>
+</html>
+

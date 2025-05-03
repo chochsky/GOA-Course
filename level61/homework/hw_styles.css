@@ -1,0 +1,28 @@
+/* ძირითად სტილი */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+/* ანიმირებული div */
+.animated-div {
+    padding: 20px;
+    font-size: 24px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    transition: all 0.5s ease; /* აქ ხდება ანიმაციის დასაწყისი */
+}
+
+/* როდესაც მაუსი მოხვდება, div გაიზრდება სიგანეში და ფერი შეიცვლება */
+.animated-div:hover {
+    width: 300px;
+    background-color: #e74c3c;
+}

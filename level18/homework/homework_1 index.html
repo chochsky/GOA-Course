@@ -1,0 +1,41 @@
+
+<head>
+    
+    <title>ბანკი</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ad1313;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(255, 83, 83, 0.781);
+        }
+        .result {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ბანკი</h1>
+        <form id="შესვლა">
+            <label for="ოპერაცია">აირჩიეთ ოპერაცია:</label>
+            <select id="ოპერაცია">
+                <option value="ბალანსი">ბალანსი</option>
+                <option value="დეპოზიტი">დეპოზიტი</option>
+                <option value="გატანა">გატანა</option>
+            </select>
+            <br><br>
+            <label for="გატანა">გატანა:</label>
+            <input type="ოდენობა" id="ოდენობა" min="0">
+            <br><br>
+            <button type="button" onclick="performOperation()">დასტური</button>
+        </form>
+        <div class="შედეგი" id="შედეგი"></div>
+    </div>

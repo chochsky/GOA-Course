@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div Example</title>
+    <style>
+        .parent-div {
+            font-size: 500px;
+        }
+        .child-div {
+            font-size: 125px; /* 500px * 0.25 */
+        }
+        .child-div p {
+            font-size: 50%; /* 125px * 0.5 */
+        }
+    </style>
+</head>
+<body>
+    <div class="parent-div">
+        <div class="child-div">
+            <p>ეს არის პარაგრაფი</p>
+        </div>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Blue Div Example</title>
+    <style>
+        .outer-div {
+            height: 700px;
+            width: 1000px;
+            background-color: darkblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .inner-div {
+            height: 350px; /* 700px / 2 */
+            width: 500px; /* 1000px / 2 */
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer-div">
+        <div class="inner-div"></div>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Div Example</title>
+    <style>
+        .outer-div {
+            height: 700px;
+            width: 1000px;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .inner-div {
+            height: 175px; /* 700px / 4 */
+            width: 250px; /* 1000px / 4 */
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer-div">
+        <div class="inner-div"></div>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Div Example</title>
+    <style>
+        .outer-div {
+            height: 700px;
+            width: 1000px;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .inner-div {
+            height: 175px; /* 700px / 4 */
+            width: 250px; /* 1000px / 4 */
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer-div">
+        <div class="inner-div"></div>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Div Example</title>
+    <style>
+        .parent-div {
+            width: 1000px;
+            height: 1000px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .image {
+            width: 250px; /* 1000px / 2 / 2 */
+            height: 250px; /* 1000px / 2 / 2 */
+        }
+    </style>
+</head>
+<body>
+    <div class="parent-div">
+        <img src="your-image-url.jpg" alt="Sample Image" class="image">
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ჩემზე</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #4A90E2;
+        }
+        .button {
+            background-color: #4CAF50; /* Hex color */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+        ul {
+            list-style-type: square;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>ჩემ შესახებ</h1>
+    <p>გამარჯობა! მე ვარ პროგრამისტი, რომელიც მუშაობს HTML, CSS და JavaScript-ზე.</p>
+    
+    <button class="button">მიმართეთ</button>
+    
+    <h2>ჩემი ჰობი</h2>
+    <ul>
+        <li>კითხვა</li>
+        <li>გაკვეთილების ჩატარება</li>
+        <li>მუსიკის მოსმენა</li>
+    </ul>
+
+    <h2>ჩემი სამსახურები</h2>
+    <table>
+        <tr>
+            <th>კომპანია</th>
+            <th>პოზიცია</th>
+        </tr>
+        <tr>
+            <td>კომპანია A</td>
+            <td>ვებსაიტის დეველოპერი</td>
+        </tr>
+        <tr>
+            <td>კომპანია B</td>
+            <td>პროდუქტის მენეჯერი</td>
+        </tr>
+    </table>
+    
+    <h2>ვიდეო</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h2>აუდიო</h2>
+    <audio controls>
+        <source src="your-audio-file.mp3" type="audio/mpeg">
+
+    </audio>
+</body>
+</html>

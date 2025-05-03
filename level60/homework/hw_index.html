@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>სიგანის გაზრდის და ფერის შეცვლის ანიმაცია</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: #3498db;
+            transition: all 0.5s ease;
+        }
+
+        .box:hover {
+            width: 300px;
+            background-color: #e74c3c;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box"></div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>დივის გაფართოება და ტექსტის გამოჩენა</title>
+    <style>
+        .container {
+            width: 200px;
+            height: 50px;
+            background-color: #2ecc71;
+            overflow: hidden;
+            position: relative;
+            transition: width 0.5s ease;
+        }
+
+        .container:hover {
+            width: 400px;
+        }
+
+        .text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0;
+            transition: opacity 0.5s ease;
+        }
+
+        .container:hover .text {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="text">მიმდინარეობს გაფართოება!</div>
+    </div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>გულისცემის ეფექტი</title>
+    <style>
+        .heartbeat {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-color: #e74c3c;
+            animation: heartbeat 1s infinite;
+        }
+
+        @keyframes heartbeat {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="heartbeat"></div>
+
+</body>
+</html>

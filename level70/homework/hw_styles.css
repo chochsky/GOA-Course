@@ -1,0 +1,29 @@
+/* ძირითადი სტილი და ცენტრი */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+.grid-container {
+    display: grid;
+    /* 10 სვეტი და 10 რიგი */
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    width: 80%;
+    height: 80vh;
+    gap: 5px;
+    background-color: #e0e0e0;
+}
+
+.item {
+    /* დივს მიაქვთ 3-7 სვეტიდან და 5-9 რიგიდან */
+    grid-area: 5 / 3 / 9 / 7;
+    background-color: #3498db;
+    /* მოცემულია რომ აისახოს გარეგნობაში */
+    border: 2px solid #2980b9;
+}

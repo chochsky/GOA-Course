@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW ლოგო</title>
+    <style>
+        .bmw-logo {
+            width: 200px;
+            height: 200px;
+            background: radial-gradient(circle, #0066b3 50%, #fff 50%);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            border: 5px solid #000;
+        }
+        .bmw-logo::before, .bmw-logo::after {
+            content: '';
+            position: absolute;
+            width: 50%;
+            height: 50%;
+            background-color: #fff;
+        }
+        .bmw-logo::before {
+            top: 0;
+            left: 0;
+        }
+        .bmw-logo::after {
+            bottom: 0;
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="bmw-logo"></div>
+
+</body>
+</html>

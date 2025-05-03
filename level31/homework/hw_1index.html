@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ფერის ცვლილების ვებსაიტი</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .color-box {
+            width: 100px;
+            height: 100px;
+            margin: 20px auto;
+            border: 1px solid #000;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>ფერის ცვლილების ვებსაიტი</h1>
+    
+    <div class="color-box" id="colorBox"></div>
+    
+    <input type="text" id="colorInput1" placeholder="Hex კოდი (მაგ. #FF5733)">
+    <button onclick="changeColorFromInput('colorInput1')">ცვალე ფერი</button>
+
+    <input type="text" id="colorInput2" placeholder="RGB კოდი (მაგ. rgb(255,87,51))">
+    <button onclick="changeColorFromInput('colorInput2')">ცვალე ფერი</button>
+
+    <input type="text" id="colorInput3" placeholder="Hex/RGB კოდი">
+    <button onclick="changeColorFromInput('colorInput3')">ცვალე ფერი</button>
+
+    <h2>ფოტოები</h2>
+    <img src="image1.jpg" alt="Image 1" width="100" onclick="changeColor('#FF5733')" style="cursor: pointer;">
+    <img src="image2.jpg" alt="Image 2" width="100" onclick="changeColor('rgb(255,87,51)')" style="cursor: pointer;">
+    <img src="image3.jpg" alt="Image 3" width="100" onclick="changeColor('#33FF57')" style="cursor: pointer;">
+
+    <script>
+        function changeColor(color) {
+            document.getElementById('colorBox').style.backgroundColor = color;
+        }
+
+        function changeColorFromInput(inputId) {
+            var color = document.getElementById(inputId).value;
+            document.getElementById('colorBox').style.backgroundColor = color;
+        }
+    </script>
+</body>
+</html>
