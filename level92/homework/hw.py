@@ -1,2 +1,2 @@
-def sort_by_a_count(lst):
-    return sorted(lst, key=lambda s: s.count('a'))
+def sort_by_fewest_a(strings):
+    return sorted(strings, key=lambda s: s.lower().count('a'))

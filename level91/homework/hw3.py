@@ -1,4 +1,3 @@
-words = ["banana", "apple", "pear"]
-sorted(words)  # ['apple', 'banana', 'pear']
-sorted(words, key=len)  # ['pear', 'apple', 'banana']
-sorted(words, reverse=True)  # ['pear', 'banana', 'apple']
+#გამოიყენება მასივის (სიის, სტრიქონის, ტაპლისა ან სხვა iterable ობიექტის) დასალაგებლად.
+words = ["თამარი", "ეკა", "გიორგი"]
+sorted(words, key=len, reverse=True)  # დაალაგებს გრძელი სიტყვებით დაწყებული

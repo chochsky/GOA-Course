@@ -1,3 +1,3 @@
-def sort_by_vowel_count(lst):
-    vowels = "aeiouAEIOU"
-    return sorted(lst, key=lambda s: -sum(1 for char in s if char in vowels))
+def sort_by_most_vowels(strings):
+    vowels = set('aeiouAEIOU')
+    return sorted(strings, key=lambda s: sum(ch in vowels for ch in s), reverse=True)

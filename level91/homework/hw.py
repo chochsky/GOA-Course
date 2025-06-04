@@ -1,8 +1,8 @@
 words = []
 
 while True:
-    word = input("შეიყვანე სიტყვა (თუ საკმარისია, აკრიფე 'საკმარისია'): ")
-    if word == "საკმარისია":
+    word = input("შეიყვანე სიტყვა (ან დაწერე 'საკმარისია' დასასრულებლად): ")
+    if word.lower() == 'საკმარისია':
         break
     words.append(word)
 sorted_words = sorted(words, key=len)
